@@ -1,0 +1,18 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+# Variables privadas
+.env
+.env.*
+!.env.example
+
+# Configuraciones locales
+.claude/
+agent-harness-kit.config.local.json
+
+# Archivos comprimidos
+*.zip
+*.tar.gz

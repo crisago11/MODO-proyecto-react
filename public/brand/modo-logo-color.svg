@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346 70" width="346" height="70">
+      
+        <defs>
+          <linearGradient id="gM" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#3D7BFF"/>
+            <stop offset="52%" stop-color="#7C3CFF"/>
+            <stop offset="100%" stop-color="#FF5CA8"/>
+          </linearGradient>
+          <linearGradient id="gO1" x1="0%" y1="20%" x2="100%" y2="80%">
+            <stop offset="0%" stop-color="#FF5CA8"/>
+            <stop offset="100%" stop-color="#FFB66B"/>
+          </linearGradient>
+          <linearGradient id="gD" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="#FFD2BF"/>
+            <stop offset="55%" stop-color="#B6E6C8"/>
+            <stop offset="100%" stop-color="#56D8D4"/>
+          </linearGradient>
+          <linearGradient id="gO2" x1="0%" y1="15%" x2="100%" y2="85%">
+            <stop offset="0%" stop-color="#43E1D5"/>
+            <stop offset="100%" stop-color="#3DD6FF"/>
+          </linearGradient>
+        </defs>
+        
+      <path d="M10 10
+C10 4 16 0 23 0
+C31 0 37 6 43 15
+L50 26
+L57 15
+C63 6 69 0 77 0
+C84 0 90 4 90 10
+V60
+C90 66 84 70 77 70
+C69 70 63 64 57 55
+L50 44
+L43 55
+C37 64 31 70 23 70
+C16 70 10 66 10 60
+Z" fill="url(#gM)"/>
+      <circle cx="147" cy="35" r="35" fill="url(#gO1)"/>
+      <g transform="translate(194 0)"><path d="M0 0 H35 A35 35 0 0 1 35 70 H0 Z" fill="url(#gD)"/></g>
+      <circle cx="311" cy="35" r="35" fill="url(#gO2)"/>
+      
+    </svg>
