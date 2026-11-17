@@ -16,3 +16,7 @@ agent-harness-kit.config.local.json
 # Archivos comprimidos
 *.zip
 *.tar.gz
+
+# Estado local de herramientas de desarrollo
+.harness/
+.mcp.json
