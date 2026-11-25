@@ -29,3 +29,6 @@ export default function App() {
     </BrowserRouter>
   )
 }
+
+// Error controlado para el taller de integración continua
+export const pruebaCI: number = "MODO";
