@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - main
+    types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 jobs:
@@ -30,5 +31,15 @@ jobs:
       - name: Instalar dependencias
         run: pnpm install --frozen-lockfile
 
+      - name: Validar calidad con ESLint
+        run: pnpm run lint:eslint
+
       - name: Compilar React
         run: pnpm run build
+
+      - name: Almacenar artefacto de compilacion
+        uses: actions/upload-artifact@v4
+        with:
+          name: modo-dist
+          path: dist/
+          if-no-files-found: error
