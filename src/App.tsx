@@ -29,6 +29,3 @@ export default function App() {
     </BrowserRouter>
   )
 }
-
-// Error de sintaxis controlado para validar ESLint
-export const pruebaCalidad = ;
