@@ -31,4 +31,4 @@ export default function App() {
 }
 
 // Error controlado para el taller de integración continua
-export const pruebaCI: number = "MODO";
+export const pruebaCI: number = 123;
