@@ -1,0 +1,34 @@
+
+name: MODO - Integracion Continua
+
+on:
+  push:
+    branches:
+      - main
+      - 'test/**'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.18.0'
+
+      - name: Configurar pnpm
+        run: npm install -g pnpm@11.17.0
+
+      - name: Instalar dependencias
+        run: pnpm install --frozen-lockfile
+
+      - name: Compilar React
+        run: pnpm run build
