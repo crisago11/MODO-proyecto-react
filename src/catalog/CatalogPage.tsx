@@ -32,7 +32,7 @@ export function CatalogPage() {
     <>
       <section className="catalog-intro">
         <p className="catalog-intro__eyebrow">¿En qué MODO estás hoy?</p>
-        <h1 className="catalog-intro__title">¿Qué te provoca hacer hoy?</h1>
+        <h1 className="catalog-intro__title">Descubre Quito a tu manera.</h1>
         <p className="catalog-intro__lead">
           Descubre talleres, recorridos y actividades en el Distrito Metropolitano de Quito.
         </p>
