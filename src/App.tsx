@@ -29,3 +29,6 @@ export default function App() {
     </BrowserRouter>
   )
 }
+
+// Error controlado para el Taller 8
+export const releaseVersion = ;
