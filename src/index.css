@@ -165,7 +165,20 @@ a {
 
 .brand {
   display: inline-flex;
+  align-items: center;
+  gap: 12px;
   border-radius: var(--modo-radius-xs);
+}
+
+.brand__version {
+  color: #39d2e2;
+  border: 1px solid rgba(57, 210, 226, 0.4);
+  background: rgba(57, 210, 226, 0.08);
+  border-radius: 20px;
+  padding: 3px 9px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .brand__logo {
