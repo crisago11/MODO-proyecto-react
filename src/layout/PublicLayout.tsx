@@ -20,7 +20,7 @@ export function PublicLayout() {
           {/* Logo oficial del brand kit MODO (versión color, sin tagline en el header). */}
         <Link to="/" className="brand" aria-label="MODO, ir al catálogo">
           <img src="/brand/modo-logo-color.svg" alt="MODO" width={346} height={70} className="brand__logo" />
-          <span className="brand__version">v2.0</span>
+          <span className="brand__version">v3.0</span>
         </Link>
           <p className="site-header__tagline">Experiencias en Quito</p>
         </div>
