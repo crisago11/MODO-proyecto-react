@@ -35,6 +35,8 @@ jobs:
         run: pnpm run lint:eslint
 
       - name: Compilar React
+        env:
+          VITE_MODO_AI_API_URL: ${{ vars.VITE_MODO_AI_API_URL }}
         run: pnpm run build
 
       - name: Almacenar artefacto de compilacion
